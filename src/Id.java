@@ -7,12 +7,12 @@ import javax.swing.*;
 import java.awt.event.*;
 
 
-public class Id312468929 extends JApplet {
+public class Id extends JApplet {
 	private static final long serialVersionUID = 1L;
 
 	public static void main(String[] args) {
 		JFrame frame = new JFrame("MovingBalls");
-		Id312468929 applet = new Id312468929();
+		Id applet = new Id();
 		frame.add(applet, BorderLayout.CENTER);
 		frame.add(applet, BorderLayout.CENTER);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -22,7 +22,7 @@ public class Id312468929 extends JApplet {
 	}
 
 
-	public Id312468929() {
+	public Id() {
 		add(new BallControlAAA());
 	}
 }
